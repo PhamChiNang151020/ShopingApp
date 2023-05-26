@@ -5,6 +5,5 @@ import 'data/service/injection/injection_mpi.dart';
 
 void main() {
   configureInjection();
-
   runApp(const ShoppingApp());
 }

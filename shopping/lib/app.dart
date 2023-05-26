@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping/business_logics/bloc/login/login_bloc.dart';
 
 import 'package:shopping/data/service/navigator/generate_route.dart' as router;
 import 'package:shopping/presentation/presentation.dart';
 
+import 'business_logics/bloc/auth/login/login_bloc.dart';
 import 'data/data.dart';
 
 class ShoppingApp extends StatefulWidget {

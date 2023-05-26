@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:shopping/data/data.dart';
+import 'package:shopping/presentation/screen/auth/register_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   // final ConnectivityBloc connectivityBloc = ConnectivityBloc();
   switch (settings.name) {
+    case MyRoute.registerRoute:
+      return MaterialPageRoute(
+        builder: (context) => const RegisterView(),
+      );
     //   case MyRoute.loginViewRoute:
     //     var loginServer = (settings.arguments
     //         as Map<dynamic, dynamic>?)?[KeyParams.loginServer];
